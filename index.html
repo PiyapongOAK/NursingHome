@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nursing Home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="/">
+                    <img src="img/งองูฟ่อฟ่อ-removebg-preview.png" alt="Logo">
+                </a>
+
+            </div>
+            <ul class="menu">
+                <li><a href="#about" id="about-link">เกี่ยวกับเรา<a></li>
+                <li><a href="#services" id="servicesbody">ราคาแพ็คเกจ<a></li>
+                <li><a href="#gallery" id="gallerybody1">แกลเลอรี<a></li>
+                <li><a href="#contact" id="footerbody">ติดต่อ<a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <h1>NURSING HOME</h1>
+        <button id="learn-more">Learn More</button>
+    </section>
+
+    <div id="body-section">
+        <div id="about-body">
+            <main>
+                <div>
+                    <h2>เกี่ยวกับเรา</h2>
+                    <p>เราคือ Nursing Home ที่ให้บริการดูแลผู้สูงอายุและผู้ที่ต้องการการดูแลเป็นพิเศษด้วยทีมงานมืออาชีพ
+                        พร้อมสิ่งอำนวยความสะดวกที่ออกแบบมาเพื่อความปลอดภัยและความสะดวกสบายของทุกคน
+                        บริการของเราครอบคลุมทั้งการดูแลด้านสุขภาพ, การพักฟื้น, และกิจกรรมสร้างสรรค์
+                        เพื่อให้ทุกคนมีคุณภาพชีวิตที่ดีที่สุด</p>
+                </div>
+                <img src="img/กิจกรรม 3.jpg"></img>
+             </main>
+             <button id="nextser">Next</button>
+        </div>  
+    </div>
+
+    <section id="text">
+        <h1>ราคาแพ็คเกจ</h1>
+    <div id="services">
+        <div id="services-day">
+            <div>
+                <h2>800 THB</h2>
+                <h3>รายวัน</h3>
+                <pre>
+    - ดูแลกิจวัตรประจำวัน
+    - กิจกรรมสันทนาการ
+    - จัดเตรียมอาหารครบ 3 มื้อ 
+    - กิจกรรมส่งเสริมสุขภาพ                  
+    - บันทึกข้อมูลสุขภาพไว้สำหรับญาติ
+    - ตรวจสุขภาพอย่างละเอียด
+                </pre>
+            </div>
+        </div>
+        <div id="services-month">
+            <div>
+                <h2>20,000 THB</h2>
+                <h3>รายเดือน</h3>
+                <pre>
+    - ดูแลกิจวัตรประจำวัน
+    - จัดเตรียมอาหารครบ 3 มื้อ                   
+    - บันทึกข้อมูลสุขภาพไว้สำหรับญาติ
+    - ตรวจสุขภาพอย่างละเอียด
+    - กิจกรรมสันทนาการ       
+    - จัดยาให้ตามเวลาที่กำหนด
+    - มีเจ้าหน้าที่ให้คำปรึกษา
+    - การดูแลแบบส่วนตัว
+    - พาผู้รับบริการไปพบแพทย์หรือ
+      ตรวจที่โรงพยาบาล
+                </pre>
+            </div>
+        </div> 
+        <div id="services-year">
+            <div>
+                <h2>200,000 THB</h2>
+                <h3>รายปี</h3>
+                <pre>
+    - ดูแลกิจวัตรประจำวัน
+    - จัดเตรียมอาหารครบ 3 มื้อ 
+    - กิจกรรมส่งเสริมสุขภาพ                  
+    - บันทึกข้อมูลสุขภาพไว้สำหรับญาติ
+    - ตรวจสุขภาพอย่างละเอียด
+    - กิจกรรมสันทนาการ       
+    - จัดยาให้ตามเวลาที่กำหนด
+    - มีเจ้าหน้าที่ให้คำปรึกษา
+    - การดูแลแบบส่วนตัว
+    - พาผู้รับบริการไปพบแพทย์หรือ
+      ตรวจที่โรงพยาบาล   
+    - ให้คำปรึกษาและช่วยลดความเครียด   
+    - ส่วนลดพิเศษในการเพิ่มบริการต่าง ๆ  
+                </pre>
+            </div>   
+        </div>
+</div>
+<button id="nextter">Next</button>
+</section>
+
+    <div id="Gallery">
+        <div id="gallerybody">
+            <div class="gallerybody1">
+            <div class="full-img" id="FullImgBox">
+                <img src="img/bedroom.jpg" id="FullImg">
+                <span onclick="closeFullImg()">X</span>
+            </div>
+            <div class="gallerytext"><h1>แกลเลอรี</h1></div>
+            <div class="img-gallery">     
+            <img src="img/bedroom.jpg" onclick="openFullImg(this.src)">
+            <img src="img/lunch.jpg" onclick="openFullImg(this.src)">
+            <img src="img/กิจกรรม 5.jpg" onclick="openFullImg(this.src)">
+            <img src="img/คำปรึกาา.jpg" onclick="openFullImg(this.src)">
+            <img src="img/e0c0e8d829f28b41185aab0849b12e53.jpg" onclick="openFullImg(this.src)">
+            <img src="img/834a7837ca16bb4c71dea1aac396eceb.jpg" onclick="openFullImg(this.src)">
+            <img src="img/ความดัน.jpg" onclick="openFullImg(this.src)">
+            <img src="img/กิจกรรม.jpg" onclick="openFullImg(this.src)">
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <div id="footer1">
+        <div id="footerbody">
+    <footer>
+        <div class="text1">
+            <pre>
+                Facebook : NursingHome
+                Line : @NursingHome
+                E-mail : NursingHome2025@gmail.com
+                Phone : 099-999-999
+            </pre>
+        </div>
+        <div class="text2">
+            <p>Coprright 2025. Made by Piyapong and his friends</p>
+        </div>
+        
+    </footer>
+</div>
+</div>
+
+    <script>
+
+        var FullImgBox = document.getElementById("FullImgBox");
+        var FullImg = document.getElementById("FullImg");
+
+        function openFullImg(pic){
+            FullImgBox.style.display = "flex";
+            FullImg.src = pic;
+        }
+
+        function closeFullImg(){
+            FullImgBox.style.display = "none";
+        }
+       
+        document.getElementById("learn-more").addEventListener("click", function () {
+            document.getElementById("body-section").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+
+        document.getElementById("about-link").addEventListener("click", function (event) {
+            event.preventDefault();
+            document.getElementById("body-section").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+
+        document.getElementById("servicesbody").addEventListener("click", function (event) {
+            event.preventDefault();
+            document.getElementById("text").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+
+        document.getElementById("gallerybody1").addEventListener("click", function (event) {
+            event.preventDefault();
+            document.getElementById("Gallery").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+
+        document.getElementById("footerbody").addEventListener("click", function (event) {
+            event.preventDefault();
+            document.getElementById("footer1").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+
+        document.getElementById("nextser").addEventListener("click", function () {
+            document.getElementById("text").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+
+        document.getElementById("nextter").addEventListener("click", function () {
+            document.getElementById("Gallery").scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        });
+    </script>
+
+</body>
+
+</html>
